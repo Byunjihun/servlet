@@ -17,8 +17,9 @@ public class HelloServlet extends HttpServlet {
         System.out.println("request = " + request);
         System.out.println("response = " + response);
 
+        //http://localhost:8080/hello?username=world
         String username = request.getParameter("username");
-        System.out.println("username = " + username);
+        System.out.println("username = " + username); // username = world
 
         response.setContentType("text/plain");
         response.setCharacterEncoding("utf-8");
