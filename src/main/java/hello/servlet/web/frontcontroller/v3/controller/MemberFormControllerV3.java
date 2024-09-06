@@ -12,14 +12,11 @@ import java.io.IOException;
 import java.util.Map;
 
 public class MemberFormControllerV3 implements ControllerV3 {
-<<<<<<< HEAD
-=======
 //    @Override
 //    public ModelView process(Map<String, String> paramMap){
 //        return new ModelView("new-form");
 //    }
 
->>>>>>> origin/master
     @Override
     public ModelView process(Map<String, String> paramMap) {
         return new ModelView("new-form");
